@@ -13,6 +13,7 @@
 		E462F4CD1A9A316F00617C19 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E462F4CC1A9A316F00617C19 /* Images.xcassets */; };
 		E462F4D01A9A316F00617C19 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E462F4CE1A9A316F00617C19 /* LaunchScreen.xib */; };
 		E462F4DC1A9A316F00617C19 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462F4DB1A9A316F00617C19 /* TipCalculatorTests.swift */; };
+		E462F4E61A9A31F300617C19 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E462F4E51A9A31F300617C19 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		E462F4D51A9A316F00617C19 /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E462F4DA1A9A316F00617C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E462F4DB1A9A316F00617C19 /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		E462F4E51A9A31F300617C19 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				E462F4CC1A9A316F00617C19 /* Images.xcassets */,
 				E462F4CE1A9A316F00617C19 /* LaunchScreen.xib */,
 				E462F4C31A9A316F00617C19 /* Supporting Files */,
+				E462F4E51A9A31F300617C19 /* TipCalculatorModel.swift */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E462F4E61A9A31F300617C19 /* TipCalculatorModel.swift in Sources */,
 				E462F4C81A9A316F00617C19 /* ViewController.swift in Sources */,
 				E462F4C61A9A316F00617C19 /* AppDelegate.swift in Sources */,
 			);
